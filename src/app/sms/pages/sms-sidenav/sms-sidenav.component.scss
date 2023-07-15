@@ -1,0 +1,25 @@
+@import 'src/styles.scss';
+.heading {
+    color: white;
+    border-bottom: 0.01rem solid rgba(255, 255, 255, 0.384);
+
+}
+#sidenav {
+    margin-left: 1rem;
+    color: white;
+
+    .user-icon {
+        transform: scale(1.5);
+    } 
+
+    .role {
+        width: 90%;
+        border-bottom: 0.01rem solid rgba(255, 255, 255, 0.384);
+    }
+
+    .menu {
+        p {
+            margin: 1rem;
+        }
+    }
+}
