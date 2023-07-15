@@ -1,25 +1,41 @@
 @import 'src/styles.scss';
+
 .heading {
     color: white;
     border-bottom: 0.01rem solid rgba(255, 255, 255, 0.384);
 
 }
+
 #sidenav {
-    margin-left: 1rem;
     color: white;
 
     .user-icon {
         transform: scale(1.5);
-    } 
+    }
 
     .role {
-        width: 90%;
         border-bottom: 0.01rem solid rgba(255, 255, 255, 0.384);
     }
 
     .menu {
         p {
-            margin: 1rem;
+            padding: 1rem 1rem 1rem 3rem;
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+        }
+
+        &.selected {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.06);
+        }
+
+        &.def {
+            color: $grey;
+        }
+
+        :hover {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.06);
         }
     }
 }

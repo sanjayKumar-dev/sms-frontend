@@ -10,4 +10,11 @@ export class SmsSidenavComponent {
   userRole = 'Admin'
   menu = menuList
 
+  menuSelected(row: any) {
+    console.log(row)
+    this.menu.forEach((obj) => {
+      obj.menuClass = row.id === obj.id ? 'selected' : 'def'
+    })
+  }
+
 }
