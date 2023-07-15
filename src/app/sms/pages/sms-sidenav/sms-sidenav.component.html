@@ -1,1 +1,15 @@
-<p>sms-sidenav works!</p>
+<div class="d-flex justify-content-center heading mt-3">
+    <mat-icon svgIcon="logo" class="me-2 mt-1"></mat-icon>
+    <h2>SMS</h2>
+</div>
+<div id="sidenav">
+    <div class="d-flex justify-content-center mt-3 role">
+        <h4>Login as {{userRole}}</h4>
+    </div>
+
+    <div class="menu">
+        <div *ngFor="let item of menu" [ngClass]="item.menuClass">
+            <p>{{item.name}}</p>
+        </div>
+    </div>
+</div>
