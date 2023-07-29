@@ -11,7 +11,9 @@ import {MatIconModule} from '@angular/material/icon'
 import { HttpClientModule } from "@angular/common/http";
 import { HeaderComponent } from './sms/pages/header/header.component';
 import { FooterComponent } from './sms/pages/footer/footer.component';
-import { WelcomeComponent } from './sms/components/welcome/welcome.component'
+import { WelcomeComponent } from './sms/components/welcome/welcome.component';
+import { DashboardComponent } from './sms/components/dashboard/dashboard.component'
+import {MatCardModule} from '@angular/material/card'
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import { WelcomeComponent } from './sms/components/welcome/welcome.component'
     SmsSidenavComponent,
     HeaderComponent,
     FooterComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +30,8 @@ import { WelcomeComponent } from './sms/components/welcome/welcome.component'
     BrowserAnimationsModule,
     MatSidenavModule,
     MatIconModule,
-    HttpClientModule
+    HttpClientModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
