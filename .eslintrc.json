@@ -27,7 +27,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "app",
+            // "prefix": "app",
             "style": "kebab-case"
           }
         ]
@@ -40,7 +40,9 @@
       "extends": [
         "plugin:@angular-eslint/template/recommended"
       ],
-      "rules": {}
+      "rules": {
+        "semi": [2, "never"]
+      }
     }
   ]
 }
