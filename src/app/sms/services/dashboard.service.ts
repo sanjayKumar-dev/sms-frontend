@@ -1,6 +1,6 @@
-import { Injectable } from '@angular/core';
-import { of } from 'rxjs';
-import { stats } from '../constant/dashboards/dashboard';
+import { Injectable } from '@angular/core'
+import { of } from 'rxjs'
+import { stats } from '../constant/dashboards/dashboard'
 
 @Injectable({
   providedIn: 'root'

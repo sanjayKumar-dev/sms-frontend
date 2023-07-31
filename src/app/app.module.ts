@@ -8,10 +8,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import {MatSidenavModule} from '@angular/material/sidenav'
 import { MatIconRegistry } from "@angular/material/icon"
 import {MatIconModule} from '@angular/material/icon'
-import { HttpClientModule } from "@angular/common/http";
-import { HeaderComponent } from './sms/pages/header/header.component';
-import { FooterComponent } from './sms/pages/footer/footer.component';
-import { WelcomeComponent } from './sms/components/welcome/welcome.component';
+import { HttpClientModule } from "@angular/common/http"
+import { HeaderComponent } from './sms/pages/header/header.component'
+import { FooterComponent } from './sms/pages/footer/footer.component'
+import { WelcomeComponent } from './sms/components/welcome/welcome.component'
 import { DashboardComponent } from './sms/components/dashboard/dashboard.component'
 import {MatCardModule} from '@angular/material/card'
 
