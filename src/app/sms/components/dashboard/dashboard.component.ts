@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { DashboardService } from '../../services/dashboard.service';
-import { stats } from '../../constant/dashboards/dashboard';
+import { Component, OnInit } from '@angular/core'
+import { DashboardService } from '../../services/dashboard.service'
+import { stats } from '../../constant/dashboards/dashboard'
 
 @Component({
   selector: 'dashboard',
