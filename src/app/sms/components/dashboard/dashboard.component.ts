@@ -17,7 +17,4 @@ export class DashboardComponent implements OnInit {
       this.states = res
     })
   }
-
-
-
 }

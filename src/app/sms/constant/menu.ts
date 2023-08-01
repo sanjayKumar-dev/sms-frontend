@@ -46,6 +46,21 @@ export const menuList = [
     },
     {
         'id': 10,
+        'name': 'Human Resource',
+        'menuClass': 'def' 
+    },
+    {
+        'id': 11,
+        'name': 'Complaint Mangement',
+        'menuClass': 'def' 
+    },
+    {
+        'id': 12,
+        'name': 'Hostel Mangement',
+        'menuClass': 'def' 
+    },
+    {
+        'id': 13,
         'name': 'Settings',
         'menuClass': 'def' 
     }
