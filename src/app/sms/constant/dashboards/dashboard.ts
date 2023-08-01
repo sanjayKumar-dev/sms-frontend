@@ -10,5 +10,13 @@ export const stats = [
     {
         name: "Total Staff",
         total: 10
+    },
+    {
+        name: "Total Complaint",
+        total: 12
+    },
+    {
+        name: "Total Staff",
+        total: 10
     }
 ]
