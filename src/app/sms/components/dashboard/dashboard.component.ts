@@ -8,7 +8,7 @@ import { stats } from '../../constant/dashboards/dashboard'
   styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent implements OnInit {
-  states = stats
+  // states = stats
 
   constructor(public service: DashboardService){''}
 
